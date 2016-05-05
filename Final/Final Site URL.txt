@@ -1,0 +1,17 @@
+jfportfolio.ignorelist.com
+
+I completed the three required items by hosting my site on heroku, using freeDNS for my custom domain, and making it high quality work.
+
+for my other points:
+
+4 complete html pages with content - I have four pages to my site: the homepage, about me, professional, and contact me.
+
+custom css/bootstrap for design - I use bootstrap on all of my pages to style my website.
+
+Two custom images - I have three custom images that are on a carousel for my homepage, you are able to click through the pictures.
+
+Javascript compononet - I have a welcome message display at the top of the homepage
+
+Non heroic 3rd party app - I used AddThis to display a container for the follow me links on the top of the homepage
+
+3rd party font - I used Font Awesome for the file icon on the contact me page
