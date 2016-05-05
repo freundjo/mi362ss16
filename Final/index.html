@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>My Portfolio</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.0/jquery.min.js"></script>
+  <script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
+  
+  <script>
+  	$(document).ready(function(){
+  		$(".hiddenMessage").delay(2000).fadeIn(2500);
+  	});
+  	
+  </script>
+  
+</head>
+<body>
+	<div class="container" style="padding-top: 25px;">
+		
+		<h1 style="text-align: center; display: none;" class="hiddenMessage">Welcome!</h1>
+		
+		<!-- Nav Bar -->
+		<nav class="navbar navbar-inverse">
+		  <div class="container-fluid">
+		    <div class="navbar-header">
+		      <a class="navbar-brand" href="#">Jordan Freund</a>
+		    </div>
+		    <ul class="nav navbar-nav">
+		      <li class="active"><a href="#">Home</a></li>
+		      <li><a href="aboutMe.html">About Me</a></li>
+		      <li><a href="Professional.html">Professional</a></li> 
+		      <li><a href="contactMe.html">Contact Me</a></li> 
+		    </ul>
+		  </div>
+		</nav>
+		
+		<!-- Carousel for three images -->
+		<div id="myCarousel" class="carousel slide" data-ride="carousel" style="width:500px;height:500px; margin-left:auto; margin-right:auto; margin-top:25px; margin-bottom: 50px;">
+			<!-- Indicators -->
+  			<ol class="carousel-indicators">
+   				<li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+    			<li data-target="#myCarousel" data-slide-to="1"></li>
+    			<li data-target="#myCarousel" data-slide-to="2"></li>
+  			</ol>
+
+		  	<!-- Wrapper for slides -->
+	    	<div class="carousel-inner" role="listbox">
+			    <div class="item active">
+			      <img src="chandler(2).jpg" alt="Apartment" style="width: 500px; height: 500px;" >
+			    </div>
+				  
+			    <div class="item">
+			      <img src="chandler.jpg" alt="Apartment" style="width: 500px; height: 500px;">
+			    </div>
+			
+			    <div class="item">
+			      <img src="golf.jpg" alt="Flower" style="width: 500px; height: 500px;">
+			    </div>
+			  </div>
+
+			  <!-- Left and right controls -->
+			  <a class="left carousel-control" href="#myCarousel" role="button" data-slide="prev">
+			    <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
+			    <span class="sr-only">Previous</span>
+			  </a>
+			  <a class="right carousel-control" href="#myCarousel" role="button" data-slide="next">
+			    <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
+			    <span class="sr-only">Next</span>
+			  </a>
+			</div>
+			
+			
+			<!-- Go to www.addthis.com/dashboard to customize your tools -->
+  <script type="text/javascript" src="//s7.addthis.com/js/300/addthis_widget.js#pubid=ra-572a8bd06c5ea6fa"></script>
+	</div>
+
+
+
+
+</body>
+</html>
